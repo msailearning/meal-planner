@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<title>Meal Planner</title>
+<meta name="theme-color" content="#FF6B6B" />
+<link rel="manifest" href="manifest.json" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="app-header">
+    <h1 id="header-title">Meal Planner</h1>
+    <div id="header-action"></div>
+  </header>
+
+  <main id="main-content"></main>
+
+  <nav id="bottom-nav">
+    <button class="nav-btn" data-route="planner">
+      <span class="nav-icon">📅</span>
+      <span>Planner</span>
+    </button>
+    <button class="nav-btn" data-route="meals">
+      <span class="nav-icon">🍽️</span>
+      <span>Meals</span>
+    </button>
+    <button class="nav-btn" data-route="shopping">
+      <span class="nav-icon">🛒</span>
+      <span>Shopping</span>
+    </button>
+    <button class="nav-btn" data-route="overview">
+      <span class="nav-icon">📖</span>
+      <span>Overview</span>
+    </button>
+  </nav>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
